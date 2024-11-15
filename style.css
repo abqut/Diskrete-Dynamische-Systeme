@@ -4,6 +4,10 @@ html, body {
 }
 body {
   background-color: #101010;
+}
+
+canvas {
+  margin: 0;
   display: flex;
 
   /* This centers our sketch horizontally. */
@@ -11,10 +15,6 @@ body {
 
   /* This centers our sketch vertically. */
   align-items: center;
-}
-
-canvas {
-  display: block;
 }
 
 h1 {
