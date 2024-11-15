@@ -1,0 +1,38 @@
+Die Visualisierung hängt von folgenden Parametern ab:
+
+n_min = -10 //kleinste Potenz von der Matrix A = (a_ij)
+n_max = 10  //größte Potenz von der Matrix A = (a_ij)
+x_min = -50 //Diese vier Parameter definieren das Koordinatensystem und das "Blickfenster"
+x_max = 50
+y_min = -50
+y_max = 50
+grid_x_min = -5 //Diese vier Parameter definieren das Rechteck, aus dem die Vektoren kommen, auf welche die Matrix angewendet wird.
+grid_x_max = 5
+grid_y_min = -5
+grid_y_max = 5
+grid_steps_x = 5 //Diese zwei Parameter definieren, wie viele Punkte aus diesem Rechteck dargestellt werden.
+grid_steps_y = 5
+a_11 = 1 //Diese Parameter definieren die Matrix A.
+a_12 = -1
+a_21 = 1
+a_22 = 1
+
+Die angegeben Werte sollen beispielhaft sein. Die Eingabedatei sollte nur die Werte, nicht ihre Namen, in genau der oben beschriebenen Reihenfolge enthalten.
+Für die obigen Werte ergäbe dies:
+
+-10
+10
+-50
+50
+-50
+50
+-5
+5
+-5
+5
+5
+5
+1
+-1
+1
+1
