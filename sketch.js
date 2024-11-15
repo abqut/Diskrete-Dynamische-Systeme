@@ -95,8 +95,8 @@ function fileSelected(file){
   start = true;
   var cnv = createCanvas(1000, 1000); 
   var x = (windowWidth - width) / 2;
-  var y = (windowHeight - height) / 2;
-  cnv.position(x, y);
+  
+  cnv.position(x, 0);
 }
 
 function getBahn(v, mat){
